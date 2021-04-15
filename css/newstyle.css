@@ -1,0 +1,495 @@
+h2 {
+color: #368da0;
+}
+.tangerine {
+font-family: 'Tangerine', cursive;
+font-size: 60px;
+line-height: .9em;
+}
+.tangerine2 {
+font-family: 'Tangerine', cursive;
+font-size: 40px;
+line-height: .9em;
+}
+.tangerine3 {
+font-family: 'Tangerine', cursive;
+}
+.raleway {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+line-height: 1em;
+}
+.raleway2 {
+font-family: 'Raleway', sans-serif;
+line-height: .9em;
+font-weight: 900;
+}
+.btn {
+font-size: 14px;
+}
+.bgcov {
+height: 100%;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+z-index: 1;
+}
+.bgcov,
+.bgdate {
+background-size: cover;
+background-position: bottom center;
+background-repeat: no-repeat;
+}
+.bgcovx {
+height: 100%;
+width: 100%;
+height: 30vh;
+overflow: hidden;
+z-index: 1;
+}
+.bgcovx,
+.bgdatex {
+
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.bgcovz {
+height: 100%;
+width: 100%;
+height: 70vh;
+overflow: hidden;
+z-index: 1;
+}
+.bgcovz,
+.bgdatez {
+
+background-size: cover;
+background-position: bottom center;
+background-repeat: no-repeat;
+}
+.introcov {
+color: #368da0;
+width: 600px;
+max-width: 100%;
+margin: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+}
+.bgsection {
+background: #F0F1F1 url(gallery/92abc403.html) repeat;
+}
+.bgdoa {
+background-image:  url(gallery/Group_4000.html);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.bgtime ul {
+color: #f8f9fa;
+text-align: center;
+}
+.bgtime ul li {
+background: #368da0;
+display: inline-block;
+font-size: 1em;
+list-style-type: none;
+padding: 1em;
+margin: 3px;
+text-transform: uppercase;
+}
+.bgtime ul li span {
+display: block;
+font-size: 2rem;
+}
+@media (max-width:576px) {
+.bgtime ul li {
+font-size: .8em;
+padding: .5em;
+}
+}
+/* GuestBook */
+#date .btn,
+#guestbook .btn {
+background: #368da0;
+border-color: #368da0;
+color: #f8f9fa;
+}
+.formchat {
+color: #343a40;
+background-color: #f8f9fa;
+border: 0px solid #f8f9fa;
+max-height: 205px;
+overflow: auto;
+}
+.line{
+text-align: center;
+margin-bottom: -15px;
+margin-top: -15px;
+}
+.line p{
+position: relative;
+display: inline-block;
+font-family: Cinzel;
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+color: rgba(110,115,150,1);
+letter-spacing: 1px;
+}
+.line p:before{
+content: " ";
+position: absolute;
+border-bottom: 2px solid rgba(110,115,150,0.5);
+width: 75px;
+left: -80px;
+top: 45%;
+}
+.line p:after{
+content: " ";
+position: absolute;
+border-bottom: 2px solid rgba(110,115,150,0.5);
+width: 75px;
+right: -80px;
+top: 45%;
+}
+.pesan-list {
+text-align: left;
+width: 310px;
+height: 380px;
+overflow: auto;
+margin-left: -15px;
+}
+.user-pesan {
+display: flex;
+align-items: flex-start;
+margin-bottom: 10px;
+}
+.pesan-wdp {
+flex: 1;
+display: block;
+background-color: #fcfcfc;
+border-radius: 0px;
+box-shadow: 0 1px 1px rgba(0,0,0,.15);
+margin-left: 15px;
+position: relative;
+padding: 8px;
+position: relative;
+}
+.pesan-wdp:after, .pesan-wdp:before {
+/*border-width: 10px 10px 10px 0;
+border-style: solid;
+border-color: transparent #fcfcfc;
+content: "";*/
+left: -7px;
+position: absolute;
+top: 9px;
+}
+.pesan-name {
+text-align: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+color: rgba(151,170,199,1);
+}
+.pesan-message {
+text-align: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: rgba(151,170,199,1);
+}
+.bodys {
+background-color: #97AAC7; 
+margin-bottom: -1px;
+}
+.section-couple-img {
+        width: 250px; height: 35px; margin-top: -20px;
+}
+.section-couple-box {
+        padding: 3px; border: 1px solid #fff; width: 150px; margin-top: -42px; position: relative;
+}
+.bg-white {
+        background-color: #fff;
+}
+.section-couple-txt {
+        padding: 5px;
+                        text-align: center;
+                        font-family: 'Cinzel';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: rgba(151,170,199,1);
+}
+.bg-section-couple {
+        background: linear-gradient(1deg, rgb(151,170,199,0.7), rgb(151,170,199,1.0));
+}
+.couple-img {
+        height: 219px; width: 219px; padding: 3px;
+}
+.couple-img-frame {
+        height: 249px; width: 249px; position: relative;  left: 7.5px; top: -228px;
+}
+.couple-name {
+        margin-top: -228px;
+                                    text-align: center;
+                                    font-family: 'Cinzel';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 26px;
+                                    color: rgba(255,255,255,1);
+                                    padding: 0px 25px;
+}
+.couple-family {
+        text-align: center;
+                                    font-family: 'Cinzel';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    color: rgba(110,115,150,1);
+}
+.bg-section-date {
+        background-color: #F0F1F1; margin-bottom: -1px; margin-top: -2px;
+}
+.section-date-box {
+        padding: 3px; border: 1px solid rgba(151,170,199,1); width: 150px; margin-top: -42px; position: relative;
+}
+.bg-softgrey {
+        background-color: rgba(151,170,199,1);
+}
+.section-date-txt {
+        padding: 5px;
+                        text-align: center;
+                        font-family: 'Cinzel';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: rgba(255,255,255,1);
+}
+.bg-softgrey {
+        background-color: rgba(151,170,199,1);
+}
+.section-date-txt {
+        padding: 5px;
+                        text-align: center;
+                        font-family: 'Cinzel';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: rgba(255,255,255,1);
+}
+.box-married {
+        background-color: rgba(151,170,199,1); width: 290px;
+}
+.txt-married {
+        padding: 10px;
+                                        text-align: center;
+                                        font-family: 'Cinzel';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: rgba(255,255,255,1);
+                                        margin-bottom: -0px;
+}
+.box-date-detail {
+        background-color: rgba(140,154,180,1); width: 290px;
+}
+.date-detail-address {
+        padding: 10px 20px;
+                                        text-align: center;
+                                        font-family: 'Cinzel';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        color: rgba(255,255,255,1);
+                                        margin-bottom: -30px;"
+}
+.date-detail-address-mid {
+        padding: 30px;
+                                        text-align: center;
+                                        font-family: 'Cinzel';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        color: rgba(255,255,255,1);
+                                        margin-bottom: -30px;
+}
+.box-maps-address {
+        background-color: rgba(151,170,199,1); width: 290px; border-radius: 10px;
+}
+.section-coundown-img {
+        width: 300px; height: 35px;
+}
+.section-countdown-box {
+        padding: 3px; border: 1px solid rgba(151,170,199,1); width: 200px; margin-top: -42px; position: relative;
+}
+.section-countdown-txt {
+        padding: 5px;
+                                            text-align: center;
+                                            font-family: 'Cinzel';
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 18px;
+                                            color: rgba(255,255,255,1);
+}
+.mg-top-30 {
+       margin-top: 30px; 
+}
+.box-countdown {
+        background-color: rgba(151,170,199,1); width: 65px; height: 65px; text-align: center; display: inline-block; padding: 10px;margin: 2px; border-radius: 10px;
+}
+.txt-countdown {
+        position: relative; top: 13px;
+                                            text-align: center;
+                                            font-family: Cinzel;
+                                            font-style: normal;
+                                            font-weight: 900;
+                                            font-size: 38px;
+                                            color: rgba(255,255,255,1);
+}
+.txt-countdown-days {
+        position: relative; top: 20px;
+                                            text-align: center;
+                                            font-family: Cinzel;
+                                            font-style: normal;
+                                            font-weight: 900;
+                                            font-size: 16px;
+                                            color: rgba(140,154,180,1);
+}
+.txt-countdown-hours {
+        position: relative; top: 20px; left: -5px;
+                                            text-align: center;
+                                            font-family: Cinzel;
+                                            font-style: normal;
+                                            font-weight: 900;
+                                            font-size: 16px;
+                                            color: rgba(140,154,180,1);
+}
+.txt-countdown-minutes {
+        position: relative; top: 20px; left: -15px;
+                                            text-align: center;
+                                            font-family: Cinzel;
+                                            font-style: normal;
+                                            font-weight: 900;
+                                            font-size: 16px;
+                                            color: rgba(140,154,180,1);
+}
+.txt-countdown-seconds {
+        position: relative; top: 20px; left: -10px;
+                                            text-align: center;
+                                            font-family: Cinzel;
+                                            font-style: normal;
+                                            font-weight: 900;
+                                            font-size: 16px;
+                                            color: rgba(140,154,180,1);
+}
+.top-04 {
+        position: relative; top: -40px; 
+}
+.section-rsv {
+        padding: 4px; border: 3px solid rgba(255,255,255,1); width: 295px;
+}
+.section-rsv-txt {
+        padding: 10px;
+                                            text-align: center;
+                                            font-family: 'Cinzel';
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 18px;
+                                            color: rgba(110,115,150,1);
+}
+.bg-form-rsv {
+        background-color: rgba(255,255,255,1); width: 295px; position: relative; top: -21px;
+}
+.box-form-rsv {
+        padding: 10px; text-align: left;
+}
+.mg-top-15 {
+        margin-top: 15px;
+}
+.form-input-name {
+        background-color: rgba(230,230,230,1); margin-bottom: 10px; font-size: 12px; height: 25px;
+}
+.form-textarea-rsv {
+        background-color: rgba(230,230,230,1); margin-bottom: 5px; font-size: 12px;
+}
+.form-button-rsv {
+        background-color: rgba(244,224,150,1); color: white; margin-bottom: 10px; border: none; width: 100%; font-size: 10px; padding: 3px;
+}
+.end-txt-1 {
+        padding: 5px;
+                text-align: center;
+                font-family: 'Shadows Into Light', cursive;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                color: rgba(255,255,255,1);
+                position: relative;
+                top: 90px;
+}
+.end-txt-2 {
+                padding: 10px;
+                text-align: center;
+                font-family: 'Cinzel';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                color: rgba(255,255,255,1);
+                position: relative;
+                top: 65px;
+}
+.modal-frame {
+        padding: 5px; border: 2px solid #fff; width: 260px; margin-top: -35px;
+}
+.modal-txt-inv {
+        text-align: center;
+                                        font-family: Cinzel;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 11px;
+                                        color: rgba(110,115,150,1);
+}
+.pad-10{
+        padding: 10px;
+}
+.modal-txt-couple {
+        text-align: center;
+                                        font-family: 'Cinzel';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 28px;
+                                        color: rgba(110,115,150,1);
+}
+.and-and {
+        font-family:Cinzel; font-weight: 400;
+}
+.pos-top-035 {
+        position: relative; top: -35px;
+}
+.modal-button-inv {
+        position: relative; top: 0px; text-align: center;
+                    background-color: #fff;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: rgba(97,109,129,1);
+                    border: none;
+                    width: 170px;
+                    border-radius: 20px;
+                    padding: 3px;
+}
+.txt-copyright {
+        color: #fff; padding: 15px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: 400;
+                    font-size: 10px;
+}
